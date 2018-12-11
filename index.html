@@ -47,8 +47,14 @@
                   <h5 class="card-title">{{ politician.name }}</h5>
                   <img class="card-img-top" src="{{ politician.image }}" alt="{{ politician.name }}">
                   <div class="card-body">
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <p class="card-text">{{ politician.tldr }}</p>
+                    <p class="card-text">Affilications</p>
+                    <ul>
+                        {% for affiliation in politician.affiliation %}
+                          <li>{{ affiliation }}</li>
+                        {% endfor %}
+                    </ul>
+                    
                   </div>
                 </div>
             </div>
