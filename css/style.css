@@ -43,6 +43,11 @@ body {
   padding-top: 3rem;
 }
 
+.card {
+  min-height: 37rem;
+  max-height: 37rem;
+}
+
 .card-img-top {
   min-height: 20rem;
   max-height: 20rem;

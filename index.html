@@ -34,12 +34,6 @@
 
     <section class="content">
       <div class="container">
-
-        <div>
-          <h2 class="font-sans font-light pt-2 pb-2">Contribute</h2>
-          <p class="font-serif">This project was created by Matthew Trask <a href="https://github.com/matthewtrask/politicaltldr/graphs/contributors">contributions</a> from the community. If you need help, hit <a href="https://twitter.com/matthewtrask">Matt</a>.</p>
-        </div>
-
         <div class="row">
           {% for politician in site.data.politicians %}
             <div class="col-sm-4">
@@ -47,20 +41,46 @@
                   <h5 class="card-title">{{ politician.name }}</h5>
                   <img class="card-img-top" src="{{ politician.image }}" alt="{{ politician.name }}">
                   <div class="card-body">
-                    <p class="card-text">{{ politician.tldr }}</p>
-                    <p class="card-text">Affilications</p>
+                    <p class="card-text pt-3"><b>TL;DR {{ politician.tldr }}</b></p>
+                    <p class="card-text">Affiliations</p>
                     <ul>
                         {% for affiliation in politician.affiliation %}
                           <li>{{ affiliation }}</li>
                         {% endfor %}
                     </ul>
-                    
                   </div>
                 </div>
             </div>
           {% endfor %}
-        </div>        
-
+        </div>  
+        
+        <div class="row">
+            <div class="col-sm-12">
+              <h2 class="font-sans font-light pt-2 pb-2">How To Contribute</h2>
+              <p class="font-serif">This project was created by Matthew Trask <a href="https://github.com/matthewtrask/politicaltldr/graphs/contributors">contributions</a> from the community. If you need help, hit <a href="https://twitter.com/matthewtrask">Matt</a> up on Twitter.</p>
+              <p class=font-serif>How To Add Someone in a few easy steps:</p>
+              <ul>
+                <li>Step One: Go to the repository <a href="https://github.com/matthewtrask/politicaltldr">here</a>. You will need an account.</li>
+                <li>Step Two: On a new branch, navigate to the _data folder, and edit the politicians.yml file.</li>
+                <li>Step Three: Open a Pull Request and tag Matt (@matthewtrask) who will promptly merge it.</li>
+                <li>Step Four: ???</li>
+                <li>Step Five: Have a good laugh, and congrats on making an open source contribution!</li>
+              </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+              <h2 class="font-sans font-light pt-2 pb-2">Roadmap</h2>
+              <p class="font-serif">I literally wrote this in about 3 hours. The idea was inspired by a reddit comment about Gavin McInnes and I ran with it.</p>
+              <p class="font-serif">The roadmp would be as follows:</p>
+              <ul>
+                <li>Step One: Make it easier for non-developers to add people.</li>
+                <li>Step Two: Put this on a CDN if need be.</li>
+                <li>Step Three: Create an API for others to use and consume this data.</li>
+                <li>Step Four: Figure out how to make money off this shit.</li>
+              </ul>
+            </div>
+        </div>
       </div>
     </section>
 
@@ -69,7 +89,8 @@
         <p class="float-right">
           <a href="#">Back to top</a>
         </p>
-        <p>Copyright {{ 'now' | date: "%Y" }} - <a href="https://apisyouwonthate.com/">APIs You Won't Hate</a></p>
+        <p>Copyright {{ 'now' | date: "%Y" }} - <a href="https://twitter.com/matthewtrask">Matthew Trask</a></p>
+        <p><a href="paypal.me/matthewtrask">Buy me a coffee or beer please!</a></p>
       </div>
     </footer>
   </body>
