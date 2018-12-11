@@ -1,0 +1,70 @@
+---
+---
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="https://v4-alpha.getbootstrap.com/favicon.ico">
+    <title>OpenAPI.Tools</title>
+    <link href="/css/bootstrap.css" rel="stylesheet">
+    <link href="/css/style.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Arvo:700|Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+  </head>
+
+  <body>
+
+    <header class="jumbotron text-center">
+      <div class="container">
+        <h1 class="jumbotron-heading">Political TL;DR</h1>
+          <p class="lead">
+            Not sure who a name is in the political news?
+            <br>
+            Curious to get the real honest look at someone without having to dig through Wikipedia?
+            <br>
+            This is your one stop shop to getting quick descriptions of names you see!
+          </p>
+          <a href="https://github.com/matthewtrask/politicaltldr" class="btn btn-primary">Contribute</a>
+        </p>
+      </div>
+    </header>
+
+    <section class="content">
+      <div class="container">
+
+        <div>
+          <h2 class="font-sans font-light pt-2 pb-2">Contribute</h2>
+          <p class="font-serif">This project was created by Matthew Trask <a href="https://github.com/matthewtrask/politicaltldr/graphs/contributors">contributions</a> from the community. If you need help, hit <a href="https://twitter.com/matthewtrask">Matt</a>.</p>
+        </div>
+
+        <div class="row">
+          {% for politician in site.data.politicians %}
+            <div class="col-sm-4">
+              <div class="card shadow p-3 mb-5 bg-white rounded">
+                  <h5 class="card-title">{{ politician.name }}</h5>
+                  <img class="card-img-top" src="{{ politician.image }}" alt="{{ politician.name }}">
+                  <div class="card-body">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+                </div>
+            </div>
+          {% endfor %}
+        </div>        
+
+      </div>
+    </section>
+
+    <footer class="text-muted">
+      <div class="container">
+        <p class="float-right">
+          <a href="#">Back to top</a>
+        </p>
+        <p>Copyright {{ 'now' | date: "%Y" }} - <a href="https://apisyouwonthate.com/">APIs You Won't Hate</a></p>
+      </div>
+    </footer>
+  </body>
+</html>
