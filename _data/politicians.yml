@@ -1,11 +1,13 @@
 - name: Gavin McInnes
   tldr: Shoved a buttplug in his ass to own the libs.
+  party: R
   affiliation: 
     - Proud Boys
     - Vice
   image: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7KmkvvONaK1GoXm-0_YdRPgvWwFoU09o4ySYJ1pw_FGKpqURf
 - name: Alexandria Ocasio-Cortez
   tldr: What Fox News has nightmares about at night.
+  party: D
   affiliation: 
     - Liberals
     - Democrats
@@ -13,6 +15,7 @@
   image: https://pixel.nymag.com/imgs/fashion/daily/2018/07/02/02-alexandria-ocasio-cortez.w700.h700.jpg  
 - name: Donald Trump
   tldr: Either the second coming of Jesus Christ, or literally Hitler. 
+  party: R
   affiliation: 
     - Nazis
     - Russia
@@ -20,6 +23,7 @@
   image: https://static01.nyt.com/images/2018/02/18/opinion/sunday/18zimmerman-print/18zimmerman-print-articleLarge.jpg?quality=75&auto=webp&disable=upscale
 - name: Betsy Devos
   tldr: Lady who married from one rich family to another to buy a cabinet seat.
+  party: R
   affiliation: 
     - Private Security
     - Amway
@@ -27,6 +31,7 @@
   image: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5krq9j61upgTRTToQ_hOHuyc_CJDZ1Hm1RXwKCSYczElli7jr
 - name: John Kelly
   tldr: Soon to be former Chief of Staff. Tried to be an adult, only to get beaten by a child
+  party: R
   affiliation: 
     - Team Adults
     - Marines
@@ -34,12 +39,14 @@
   image: https://images.axios.com/liTWmXBV8QogavDttSgwGz2Zs6I=/0x0:5132x2887/1920x1080/2018/12/08/1544296833594.jpg
 - name: Michael Cohen
   tldr: Tried to fix Trump's books, but all he really fixed was his jail sentence.
+  party: D flipped R
   affiliation: 
     - Lawyers with a felony or two
     - Flipper  
   image: https://www.rollingstone.com/wp-content/uploads/2018/07/RTX6CRLN.jpg?crop=900:600&width=440  
 - name: Bernie Sanders
   tldr: Like Yoda, he will die and come back to haunt us and set a tree on fire.
+  party: D - ish
   affiliation: 
     - Hard Left
     - Liberals
@@ -47,12 +54,14 @@
   image: https://www.gannett-cdn.com/presto/2018/11/29/PBUR/b0532ba0-0d96-49ea-92de-9aa4ab5ac6ee-2018_1129_Sanders_Institute_1.jpg?width=540&height=405&fit=bounds&auto=webp  
 - name: Brett Kavanaugh
   tldr: I only had one... case of beer that one time.
+  party: Beer
   affiliation:
     - Devil's Triangle
     - Beer
   image: https://imagesvc.timeincapp.com/v3/mm/image?url=https%3A%2F%2Fpeopledotcom.files.wordpress.com%2F2018%2F09%2Fbrett-kavanaugh-21.jpg%3Fw%3D2000&w=700&c=sc&poi=face&q=85
 - name: Beto O'Rouke
   tldr: Almost took down Ted "I'm a human!" Cruz. 
+  party: D
   affiliation: 
     - Punk Rock
     - Skater
@@ -60,6 +69,7 @@
   image: https://imagesvc.timeincapp.com/v3/mm/image?url=https%3A%2F%2Fpeopledotcom.files.wordpress.com%2F2018%2F08%2Fbeto-orourke.jpg%3Fw%3D2000&w=700&c=sc&poi=face&q=85  
 - name: Milo Yiannopolous
   tldr: Flaming broke ass douche bag
+  party: R
   affiliation: 
     - Alt-right
     - Hate Speech
@@ -67,12 +77,14 @@
   image: https://images.archant.co.uk/polopoly_fs/1.5809075.1544107940!/image/image.jpg_gen/derivatives/landscape_630/image.jpg  
 - name: Nancy Pelosi
   tldr: Scares the right, and holds the left together. She gets shit done.
+  party: D
   affiliation:
     - House of Reps 
     - Speaker of the House
   image: https://c.o0bg.com/rf/image_960w/Boston/2011-2020/2016/11/17/BostonGlobe.com/EditorialOpinion/Images/1118pelosi.jpg
 - name: Paul Ryan
   tldr: Supposed policy wonk who wonked up our deficit with a tax cut to the richest.
+  party: R
   affiliation:
     - Ayn Rand Super Fans
     - College Keg Stand Team

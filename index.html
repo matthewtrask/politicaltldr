@@ -47,7 +47,7 @@
           {% for politician in site.data.politicians %}
             <div class="col-sm-4">
               <div class="card shadow p-3 mb-5 bg-white rounded">
-                  <h5 class="card-title">{{ politician.name }}</h5>
+                  <h5 class="card-title">{{ politician.name }} | {{ politician.party }}</h5>
                   <img class="card-img-top" src="{{ politician.image }}" alt="{{ politician.name }}">
                   <div class="card-body">
                     <p class="card-text pt-3"><b>TL;DR {{ politician.tldr }}</b></p>
